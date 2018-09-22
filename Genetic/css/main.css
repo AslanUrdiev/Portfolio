@@ -1,0 +1,345 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	line-height: 1.5;
+	
+
+}
+
+header {
+	width: 3000px;
+	display: flex;
+}
+
+
+.container {
+	display: flex;
+	position: relative;
+}
+
+.img__block {
+	justify-content: center;
+	height: 100vh;
+	display: flex;
+	filter: 
+	width: 100%;
+	background-size: contain;
+	
+	 	
+}
+
+.img {
+	background-image: url(../img/bg.png);
+	height: 100vh;
+	display: flex;
+	background-size: contain;
+	width: 3000px;
+	filter: brightness(0.4);
+}
+
+.text__block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	position: absolute;
+}
+
+.title {
+	
+	display: flex;
+	justify-content: center;
+	font-family: Verdana;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+
+.title h1 {
+	width: 700px;
+	text-align: center;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.text p {
+	width: 500px;
+	text-align: center;
+}
+
+.btn__wrap {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	top: 90%;	
+	height: 40px;
+	justify-content: center;
+
+}
+
+.btn__wrap__img {
+	width: 100px;
+	height: 50px;
+}
+
+.btn {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*height: 40px;
+	background-color: #d60000;
+	width: 100px;
+	border: 2px solid #ff5131;
+	border-radius: 6px;*/
+}
+
+
+
+
+
+
+.start {
+	display: flex;
+	flex-direction: column;
+	width: 3000px;
+	background-color: #6e0000cc;
+	padding-top: -20px
+	
+}
+
+.contain_wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+
+.container0{
+	display: flex;
+	width: 280px;
+	
+	justify-content: space-around;
+	
+	
+	display: flex;
+}
+
+
+ 
+#parent {
+	background-color: #9c0000;
+	color: white;
+	justify-content: center;
+	display: flex;
+	border: 2px solid #ff5131;
+	border-radius: 5px;
+	align-items: center;
+	width: 68px;
+	height: 25px;
+}
+
+.container1{
+	display: flex;
+	width: 400px;
+	
+	justify-content: space-between;
+	display: flex;
+}
+
+.child1 {
+		
+	
+	text-align: center;
+	background-color: #9c0000;
+	color: white;
+	justify-content: center;
+	display: flex;
+	border: 2px solid #ff5131;
+	border-radius: 5px;
+	align-items: center;
+	width: 68px;
+	height: 25px;
+}
+
+.BORDER {
+	
+	height: 30px;
+	margin-left: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+#canvas {
+	justify-content: center;
+	display: flex;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.canweight {
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+.cont2 {
+	display: flex;
+	justify-content: center;
+}
+
+
+.container2 {
+	display: flex;
+	justify-content: space-around;
+	width: 1000px;
+	margin-left: 1000px;
+}
+
+.container2_1 {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+
+.cont3 {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 3000px;
+}
+
+.child2 {
+	
+	background-color: #9c0000;
+	color: white;
+	justify-content: center;
+	display: flex;
+	border: 2px solid #ff5131;
+	border-radius: 5px;
+	align-items: center;
+	width: 75px;
+	height: 25px;
+}
+
+.child2_1 {
+	background-color: #9c0000;
+	color: white;
+	justify-content: center;
+	display: flex;
+	border: 2px solid #ff5131;
+	border-radius: 5px;
+	align-items: center;
+	width: 75px;
+	height: 25px;
+	position: absolute;
+	margin-right: 1300px;
+}
+
+
+.canweight2 {
+	text-align: center;
+	margin-bottom: -5px;
+}
+
+.container3 {
+	display: flex;
+	margin-left: 748px;
+	justify-content: space-between;
+	width: 207px;
+	position: absolute;
+
+}
+
+.cont4 {
+	display: flex;
+	
+	margin: 0 auto;
+	width: 3000px;
+}
+
+.container4 {
+	display: flex;
+	padding-left: 400px;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1000px;
+
+}
+
+.child4 {
+	
+	margin-left: 4px;
+	background-color: #9c0000;
+	color: white;
+	justify-content: center;
+	display: flex;
+	border: 2px solid #ff5131;
+	border-radius: 5px;
+	align-items: center;
+	width: 75px;
+	height: 25px;
+}
+
+
+
+
+
+/* жены
+
+/*/
+
+.wifes {
+	margin-top: 5px;
+}
+
+.fatima {
+	margin-left: 748px;
+	border: 2px solid #d50000;
+	border-radius: 5px;
+	display: flex;
+	width: 75px;
+	justify-content: center;
+	background-color: #d50000;
+}
+
+
+
+#kvadrat {
+	margin-top: -35px;
+	margin-bottom: -31px;
+
+	margin-left: 741px;
+	width: 84px;
+	height: 66px;
+	border: 4px solid #ff5131;
+	position: relative;
+	
+
+}
+
+
+
+
+@media only screen and (max-width:1200px) {.wrapper {width:auto;}}
